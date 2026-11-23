@@ -1,0 +1,236 @@
+[
+  {
+    "key": "section:54cb50c76803fa8b248b4571:ll1",
+    "label": "商人好感 LL1",
+    "x": 385.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:54cb50c76803fa8b248b4571:ll2",
+    "label": "商人好感 LL2",
+    "x": 575.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:54cb50c76803fa8b248b4571:ll3",
+    "label": "商人好感 LL3",
+    "x": 765.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:54cb50c76803fa8b248b4571:ll4",
+    "label": "商人好感 LL4",
+    "x": 955.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:54cb50c76803fa8b248b4571:core",
+    "label": "核心任务",
+    "x": 1145.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:54cb57776803fa99248b456e:ll1",
+    "label": "商人好感 LL1",
+    "x": 2105.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:54cb57776803fa99248b456e:ll2",
+    "label": "商人好感 LL2",
+    "x": 2295.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:54cb57776803fa99248b456e:ll3",
+    "label": "商人好感 LL3",
+    "x": 2485.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:54cb57776803fa99248b456e:ll4",
+    "label": "商人好感 LL4",
+    "x": 2675.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:54cb57776803fa99248b456e:core",
+    "label": "核心任务",
+    "x": 2865.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:579dc571d53a0658a154fbec:core",
+    "label": "核心任务",
+    "x": 4110.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:58330581ace78e27b8b10cee:ll1",
+    "label": "商人好感 LL1",
+    "x": 5545.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:58330581ace78e27b8b10cee:ll2",
+    "label": "商人好感 LL2",
+    "x": 5735.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:58330581ace78e27b8b10cee:ll3",
+    "label": "商人好感 LL3",
+    "x": 5925.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:58330581ace78e27b8b10cee:ll4",
+    "label": "商人好感 LL4",
+    "x": 6115.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:58330581ace78e27b8b10cee:core",
+    "label": "核心任务",
+    "x": 6305.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5935c25fb3acc3127c3d8cd9:ll1",
+    "label": "商人好感 LL1",
+    "x": 7265.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5935c25fb3acc3127c3d8cd9:ll2",
+    "label": "商人好感 LL2",
+    "x": 7455.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5935c25fb3acc3127c3d8cd9:ll3",
+    "label": "商人好感 LL3",
+    "x": 7645.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5935c25fb3acc3127c3d8cd9:ll4",
+    "label": "商人好感 LL4",
+    "x": 7835.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5935c25fb3acc3127c3d8cd9:core",
+    "label": "核心任务",
+    "x": 8025.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5a7c2eca46aef81a7ca2145d:ll1",
+    "label": "商人好感 LL1",
+    "x": 8985.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5a7c2eca46aef81a7ca2145d:ll2",
+    "label": "商人好感 LL2",
+    "x": 9175.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5a7c2eca46aef81a7ca2145d:ll3",
+    "label": "商人好感 LL3",
+    "x": 9365.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5a7c2eca46aef81a7ca2145d:ll4",
+    "label": "商人好感 LL4",
+    "x": 9555.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5a7c2eca46aef81a7ca2145d:core",
+    "label": "核心任务",
+    "x": 9745.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5ac3b934156ae10c4430e83c:ll1",
+    "label": "商人好感 LL1",
+    "x": 10705.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5ac3b934156ae10c4430e83c:ll2",
+    "label": "商人好感 LL2",
+    "x": 10895.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5ac3b934156ae10c4430e83c:ll3",
+    "label": "商人好感 LL3",
+    "x": 11085.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5ac3b934156ae10c4430e83c:ll4",
+    "label": "商人好感 LL4",
+    "x": 11275.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5ac3b934156ae10c4430e83c:core",
+    "label": "核心任务",
+    "x": 11465.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5c0647fdd443bc2504c2d371:ll1",
+    "label": "商人好感 LL1",
+    "x": 12425.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5c0647fdd443bc2504c2d371:ll2",
+    "label": "商人好感 LL2",
+    "x": 12615.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5c0647fdd443bc2504c2d371:ll3",
+    "label": "商人好感 LL3",
+    "x": 12805.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5c0647fdd443bc2504c2d371:ll4",
+    "label": "商人好感 LL4",
+    "x": 12995.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:5c0647fdd443bc2504c2d371:core",
+    "label": "核心任务",
+    "x": 13185.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:638f541a29ffd1183d187f57:core",
+    "label": "核心任务",
+    "x": 14430.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:656f0f98d80a697f855d34b1:core",
+    "label": "核心任务",
+    "x": 16150.0,
+    "y": 135.0
+  },
+  {
+    "key": "section:6617beeaa9cfa777ca915b7c:core",
+    "label": "核心任务",
+    "x": 17870.0,
+    "y": 135.0
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "key": "trader:54cb50c76803fa8b248b4571",
+    "name": "Prapor (俄商)",
+    "avatar": "./uploads/trader/54cb50c76803fa8b248b4571.webp",
+    "x": 740.0,
+    "y": 20.0
+  },
+  {
+    "key": "trader:54cb57776803fa99248b456e",
+    "name": "Therapist (医商)",
+    "avatar": "./uploads/trader/54cb57776803fa99248b456e.webp",
+    "x": 2460.0,
+    "y": 20.0
+  },
+  {
+    "key": "trader:579dc571d53a0658a154fbec",
+    "name": "Fence (黑商)",
+    "avatar": "./uploads/trader/579dc571d53a0658a154fbec.webp",
+    "x": 4180.0,
+    "y": 20.0
+  },
+  {
+    "key": "trader:58330581ace78e27b8b10cee",
+    "name": "Skier (配件商)",
+    "avatar": "./uploads/trader/58330581ace78e27b8b10cee.webp",
+    "x": 5900.0,
+    "y": 20.0
+  },
+  {
+    "key": "trader:5935c25fb3acc3127c3d8cd9",
+    "name": "Peacekeeper (美商)",
+    "avatar": "./uploads/trader/5935c25fb3acc3127c3d8cd9.webp",
+    "x": 7620.0,
+    "y": 20.0
+  },
+  {
+    "key": "trader:5a7c2eca46aef81a7ca2145d",
+    "name": "Mechanic (机械师)",
+    "avatar": "./uploads/trader/5a7c2eca46aef81a7ca2145d.webp",
+    "x": 9340.0,
+    "y": 20.0
+  },
+  {
+    "key": "trader:5ac3b934156ae10c4430e83c",
+    "name": "Ragman (服装商)",
+    "avatar": "./uploads/trader/5ac3b934156ae10c4430e83c.webp",
+    "x": 11060.0,
+    "y": 20.0
+  },
+  {
+    "key": "trader:5c0647fdd443bc2504c2d371",
+    "name": "Jaeger (猎人)",
+    "avatar": "./uploads/trader/5c0647fdd443bc2504c2d371.webp",
+    "x": 12780.0,
+    "y": 20.0
+  },
+  {
+    "key": "trader:638f541a29ffd1183d187f57",
+    "name": "Lightkeeper (灯塔守夜人)",
+    "avatar": "./uploads/trader/638f541a29ffd1183d187f57.webp",
+    "x": 14500.0,
+    "y": 20.0
+  },
+  {
+    "key": "trader:656f0f98d80a697f855d34b1",
+    "name": "BTR司机",
+    "avatar": "./uploads/trader/656f0f98d80a697f855d34b1.webp",
+    "x": 16220.0,
+    "y": 20.0
+  },
+  {
+    "key": "trader:6617beeaa9cfa777ca915b7c",
+    "name": "竞技场裁判 (Ref)",
+    "avatar": "./uploads/trader/6617beeaa9cfa777ca915b7c.webp",
+    "x": 17940.0,
+    "y": 20.0
+  }
+]

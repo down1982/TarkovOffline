@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>逃离塔科夫 离线战术助手 - 任务拓扑 / 藏身处 / 战局留物 / 云同步</title>
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#f59e0b">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/task-hideout.css">
+</head>
+<body>
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-icon">E</div>
+      <div class="brand-title">逃离塔科夫 中文离线战术助手</div>
+      <span class="badge-offline">本地永久保存 · 100% 免费</span>
+    </div>
+
+    <!-- Navigation Tabs (Hotkeys 1~4) -->
+    <nav class="nav-tabs">
+      <button class="nav-tab is-active" data-target="view-tasks" title="快捷键: 1">🌳 任务管理</button>
+      <button class="nav-tab" data-target="view-hideout" title="快捷键: 2">🏠 藏身处</button>
+      <button class="nav-tab" data-target="view-collection" title="快捷键: 3">📦 留物速查</button>
+      <button class="nav-tab" data-target="view-sync" title="快捷键: 4">💾 进度与备份</button>
+    </nav>
+
+    <!-- AI Screen Scanner Button -->
+    <button type="button" id="header-scanner-btn" class="btn-spotlight" style="margin-right:8px;" title="识图智能取数 (截图或直接 Ctrl+V)">
+      <span>📸</span>
+      <span>识图取数</span>
+      <kbd>Ctrl+V</kbd>
+    </button>
+
+    <!-- Global Spotlight Search Button -->
+    <button type="button" id="header-spotlight-btn" class="btn-spotlight" title="打开全局搜索 (Ctrl+K 或 /)">
+      <span>🔍</span>
+      <span>全局搜索</span>
+      <kbd>Ctrl+K</kbd>
+    </button>
+  </header>
+
+  <!-- App Main Body -->
+  <main class="app-body">
+    <!-- View 1: Task Management (Quest Tree & Quest List) -->
+    <section id="view-tasks" class="view-container is-active">
+      <div class="section-toolbar">
+        <div class="subview-pills">
+          <button type="button" class="subview-pill is-active" data-task-subview="tree">🌳 任务拓扑树形图</button>
+          <button type="button" class="subview-pill" data-task-subview="list">📑 任务全列表</button>
+        </div>
+
+        <div class="filter-group">
+          <select id="task-filter-trader" class="filter-select">
+            <option value="all">全部商人</option>
+            <option value="Prapor">Prapor (俄商)</option>
+            <option value="Therapist">Therapist (医商)</option>
+            <option value="Skier">Skier (配件商)</option>
+            <option value="Peacekeeper">Peacekeeper (美商)</option>
+            <option value="Mechanic">Mechanic (机械师)</option>
+            <option value="Ragman">Ragman (服装商)</option>
+            <option value="Jaeger">Jaeger (猎人)</option>
+            <option value="Fence">Fence (黑商)</option>
+            <option value="Lightkeeper">Lightkeeper (灯塔守夜人)</option>
+            <option value="BTR司机">BTR司机</option>
+            <option value="竞技场裁判">竞技场裁判 (Ref)</option>
+          </select>
+
+          <select id="task-filter-status" class="filter-select">
+            <option value="all">全部状态</option>
+            <option value="available">仅可接取</option>
+            <option value="completed">仅已完成</option>
+            <option value="locked">仅未解锁</option>
+          </select>
+
+          <input id="task-search-input" class="search-box-input" type="text" placeholder="搜索任务名称或目标...">
+        </div>
+      </div>
+
+      <!-- Task Progress Summary Bar -->
+      <div class="progress-summary-bar">
+        <span id="task-progress-label" class="progress-label">任务完成进度: 0 / 602 (0.0%)</span>
+        <div class="progress-track">
+          <div id="task-progress-fill" class="progress-fill" style="width: 0%;"></div>
+        </div>
+      </div>
+
+      <!-- Subview A: Quest Tree 2D Canvas -->
+      <div id="task-tree-shell" class="task-tree-shell">
+        <div id="task-tree-viewport" class="task-tree-viewport">
+          <canvas id="task-tree-canvas" class="task-tree-canvas"></canvas>
+          <div id="task-tree-world" class="task-tree-world"></div>
+        </div>
+
+        <!-- Floating Trader Jump Navigation Bar -->
+        <div id="task-tree-trader-jump" class="trader-jump-bar"></div>
+
+        <!-- Floating Zoom Controls -->
+        <div class="tree-controls">
+          <button id="task-zoom-in" class="tree-ctrl-btn" title="放大">+</button>
+          <button id="task-zoom-out" class="tree-ctrl-btn" title="缩小">-</button>
+          <button id="task-tree-reset-btn" class="tree-ctrl-btn" title="复位视角">⟲</button>
+        </div>
+      </div>
+
+      <!-- Subview B: Quest List View -->
+      <div id="task-list-view" class="task-list-view" style="display:none;">
+        <div id="task-list-grid" class="task-list-grid"></div>
+      </div>
+    </section>
+
+    <!-- View 3: Hideout Management -->
+    <section id="view-hideout" class="view-container">
+      <div class="section-toolbar">
+        <div class="subview-pills">
+          <button type="button" class="subview-pill is-active" data-hideout-subview="stations">🏛️ 设施建造升级</button>
+          <button type="button" class="subview-pill" data-hideout-subview="materials">📦 所需材料清单汇总</button>
+        </div>
+
+        <div class="filter-group">
+          <select id="hideout-mat-filter" class="filter-select" title="材料范围">
+            <option value="all">汇总范围：全部未满级所需材料</option>
+            <option value="next">汇总范围：仅下一级所需材料</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Hideout Progress Summary Bar -->
+      <div class="progress-summary-bar">
+        <span id="hideout-progress-label" class="progress-label">设施升级进度: 0 / 78 (0.0%)</span>
+        <div class="progress-track">
+          <div id="hideout-progress-fill" class="progress-fill" style="width: 0%;"></div>
+        </div>
+      </div>
+
+      <!-- Quick Facility Jump Carousel -->
+      <div id="hideout-carousel-wrap" class="hideout-carousel-wrap"></div>
+
+      <!-- Subview A: Stations Grid -->
+      <div id="hideout-stations-view" class="hideout-view-body">
+        <div id="stations-grid" class="stations-grid"></div>
+      </div>
+
+      <!-- Subview B: Material Calculator -->
+      <div id="hideout-materials-view" class="hideout-view-body" style="display:none;"></div>
+    </section>
+
+    <!-- View 4: Collection (What to Keep / FIR Tracker) -->
+    <section id="view-collection" class="view-container">
+      <div class="col-view-container">
+        <!-- Top Statistics HUD -->
+        <div class="col-stats-grid">
+          <div class="col-stat-box">
+            <div class="col-stat-title">必留物品种类</div>
+            <div id="col-stat-total" class="col-stat-val">282</div>
+          </div>
+          <div class="col-stat-box">
+            <div class="col-stat-title">战局带出需求 (FIR)</div>
+            <div id="col-stat-fir" class="col-stat-val" style="color:#ef4444;">--</div>
+          </div>
+          <div class="col-stat-box">
+            <div class="col-stat-title">当前短缺物品</div>
+            <div id="col-stat-missing" class="col-stat-val" style="color:#f59e0b;">--</div>
+          </div>
+          <div class="col-stat-box">
+            <div class="col-stat-title">仓库留存总件数</div>
+            <div id="col-stat-stash" class="col-stat-val" style="color:#10b981;">0</div>
+          </div>
+          <div class="col-stat-box">
+            <div class="col-stat-title">3x4 Kappa 收集度</div>
+            <div id="col-stat-kappa" class="col-stat-val" style="color:#a855f7;">-- / --</div>
+          </div>
+        </div>
+
+        <!-- Filter & Search Toolbar -->
+        <div class="section-toolbar" style="margin: 0;">
+          <div class="subview-pills">
+            <button type="button" class="subview-pill is-active" data-collection-filter="all">全部留物</button>
+            <button type="button" class="subview-pill" data-collection-filter="fir">🔥 仅战局带出</button>
+            <button type="button" class="subview-pill" data-collection-filter="missing">⚠️ 仅短缺项</button>
+            <button type="button" class="subview-pill" data-collection-filter="task">📋 任务所需</button>
+            <button type="button" class="subview-pill" data-collection-filter="hideout">🏠 藏身处所需</button>
+            <button type="button" class="subview-pill" data-collection-filter="collector">🏆 收藏家 (Kappa)</button>
+            <button type="button" class="subview-pill" data-collection-filter="ready">✓ 已备齐/交完</button>
+          </div>
+
+          <div class="filter-group">
+            <input id="collection-search-input" class="search-box-input" type="text" placeholder="搜索物品名称或使用任务/设施...">
+          </div>
+        </div>
+
+        <!-- Items Cards Responsive Grid -->
+        <div id="collection-grid" class="collection-grid"></div>
+      </div>
+    </section>
+
+    <!-- View 4: Data Sync & Backup Management -->
+    <section id="view-sync" class="view-container">
+      <div class="sync-view-wrap">
+        <!-- Progress Backup Card -->
+        <div class="sync-card">
+          <h2>💾 任务与藏身处战术进度备份</h2>
+          <p>所有任务完成标记、每项子目标细分勾选状态、藏身处 26 个设施等级、战局留物库存计数均安全保存在浏览器本地，完全离线且永久生效。你可以随时导出备份 JSON 文件，在不同浏览器或电脑之间无缝迁移！</p>
+          
+          <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
+            <button id="export-backup-btn" class="btn-primary">💾 导出本地战术进度备份 JSON</button>
+            <button id="import-backup-btn" class="btn-primary btn-blue">📂 导入本地战术进度备份 JSON</button>
+            <input type="file" id="backup-file-input" style="display:none;" accept=".json">
+            <button id="reset-all-btn" class="btn-primary btn-danger">🧹 重置全部本地战术进度</button>
+          </div>
+          <div id="backup-status-text" style="margin-top:14px;font-size:13px;color:#10b981;"></div>
+        </div>
+
+        <!-- Google Drive Cloud Sync Card -->
+        <div class="sync-card" id="gdrive-sync-card">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:10px;">
+            <h2 style="margin-bottom:0;">☁️ Google Drive 私人云端同步（零后端直连）</h2>
+            <span id="gdrive-status-badge" class="gdrive-badge">未配置 Client ID</span>
+          </div>
+          <p>直接通过浏览器向您自己的 Google Drive 读写 <code>tarkov_offline_tactical_save.json</code>（仅申请 <code>drive.file</code> 最小权限，无法访问网盘内其他任何文件），无需自建后端即可多设备跨端同步进度。</p>
+
+          <div class="gdrive-config-row">
+            <input id="gdrive-client-id-input" type="text" class="gdrive-input" placeholder="粘贴你的 Google OAuth 2.0 Client ID (xxxxx.apps.googleusercontent.com)">
+            <button type="button" id="gdrive-save-client-btn" class="btn-primary btn-neutral" style="padding:9px 16px;">💾 保存 Client ID</button>
+          </div>
+
+          <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:14px;">
+            <button type="button" id="gdrive-connect-btn" class="btn-primary btn-blue">🔗 授权连接 Google Drive</button>
+            <button type="button" id="gdrive-disconnect-btn" class="btn-primary btn-neutral" style="display:none;">🔌 断开连接</button>
+            <button type="button" id="gdrive-push-btn" class="btn-primary" disabled>⬆️ 上传覆盖云端存档</button>
+            <button type="button" id="gdrive-pull-btn" class="btn-primary btn-blue" disabled>⬇️ 从云端拉取恢复</button>
+
+            <label class="gdrive-autosync-label" title="修改任务/藏身处/留物进度 3 秒后自动上传到 Google Drive">
+              <input type="checkbox" id="gdrive-autosync-toggle" disabled>
+              <span>修改后自动同步到云端</span>
+            </label>
+          </div>
+
+          <div id="gdrive-remote-meta" style="margin-top:12px;font-size:12px;color:#8b949e;"></div>
+          <div id="gdrive-status-text" style="margin-top:8px;font-size:13px;color:#10b981;"></div>
+
+          <details class="gdrive-guide-details">
+            <summary>📖 2 分钟免费配置自己的 Google OAuth Client ID（点此展开教程）</summary>
+            <ol>
+              <li>打开 <a href="https://console.cloud.google.com/apis/library/drive.googleapis.com" target="_blank" rel="noopener">Google Cloud Console</a>，新建项目并启用 <strong>Google Drive API</strong>。</li>
+              <li>进入左侧「Google Auth Platform / OAuth 同意屏幕」→ 选择 <strong>External（外部）</strong>，在「测试用户」中添加你自己的 Gmail 邮箱（测试模式下无需 Google 审核，最多支持 100 个测试账号永久免费使用）。</li>
+              <li>进入「客户端 / 凭据」→ 创建 <strong>OAuth 客户端 ID</strong> → 应用类型选择 <strong>Web 应用（Web application）</strong>。</li>
+              <li>在 <strong>「已获授权的 JavaScript 来源 (Authorized JavaScript origins)」</strong> 中添加当前访问来源：<code id="gdrive-origin-hint">http://localhost:8080</code> <button type="button" id="gdrive-copy-origin-btn" class="gdrive-mini-btn">复制</button>（如部署到 GitHub/Cloudflare Pages 也一并填入对应域名）。</li>
+              <li>将生成的 <strong>Client ID</strong>（以 <code>.apps.googleusercontent.com</code> 结尾）粘贴到上方输入框保存即可授权同步。</li>
+            </ol>
+          </details>
+        </div>
+
+        <div class="sync-card">
+          <h2>📦 极简轻量离线数据库架构</h2>
+          <p>当前系统采用完全解耦的离线架构：全部 602 个任务拓扑图、26 个藏身处设施升级树、282 种战局必留物均完整保存在本地。断网环境下仍可毫秒级流畅访问！</p>
+          
+          <div class="sync-stats-grid">
+            <div class="sync-stat-box">
+              <div class="sync-stat-title">任务拓扑数据库</div>
+              <div class="sync-stat-val">602 个</div>
+              <div style="font-size:12px;color:#8b929c;margin-top:4px;">含前置 DAG 关系与子目标细分管理</div>
+            </div>
+            <div class="sync-stat-box">
+              <div class="sync-stat-title">藏身处建造设施</div>
+              <div class="sync-stat-val">26 处</div>
+              <div style="font-size:12px;color:#8b929c;margin-top:4px;">含 78 级升级消耗与材料汇总</div>
+            </div>
+            <div class="sync-stat-box">
+              <div class="sync-stat-title">战局必留物品库</div>
+              <div class="sync-stat-val">282 种</div>
+              <div style="font-size:12px;color:#8b929c;margin-top:4px;">联动任务与藏身处动态扣减</div>
+            </div>
+            <div class="sync-stat-box">
+              <div class="sync-stat-title">离线访问模式</div>
+              <div class="sync-stat-val" style="color:#10b981;">100% 极简离线</div>
+              <div style="font-size:12px;color:#8b929c;margin-top:4px;">极简 12MB 体积 · 支持 PWA 桌面客户端</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- AI Screen Scanner Modal Overlay -->
+  <div id="scanner-modal-overlay" class="modal-overlay" style="display:none;">
+    <div class="scanner-modal-card">
+      <div class="scanner-modal-header">
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span style="font-size:20px;">📸</span>
+          <span style="font-weight:700;font-size:16px;color:#fff;">AI 识图智能取数 (100% 官方合规 · 零封号安全)</span>
+        </div>
+        <button type="button" id="scanner-modal-close" class="modal-close-btn">&times;</button>
+      </div>
+
+      <div class="scanner-modal-body">
+        <div id="scanner-dropzone" class="scanner-dropzone">
+          <div style="font-size:32px;margin-bottom:8px;">📋 / 🖼️</div>
+          <div style="font-size:15px;font-weight:600;color:#f3f4f6;margin-bottom:6px;">
+            在游戏内按 <kbd style="background:#272d36;padding:2px 6px;border-radius:4px;border:1px solid #3b4252;">Win + Shift + S</kbd> 截图，直接在此处按 <kbd style="background:#f59e0b;color:#000;font-weight:700;padding:2px 6px;border-radius:4px;">Ctrl + V</kbd>
+          </div>
+          <div style="font-size:13px;color:#9ca3af;margin-bottom:12px;">
+            支持拖拽截图文件，或点击选择本地游戏截图
+          </div>
+          <button type="button" id="scanner-browse-btn" class="btn-primary" style="padding:6px 16px;font-size:13px;">
+            📂 选择截图文件
+          </button>
+          <input type="file" id="scanner-file-input" accept="image/*" style="display:none;">
+        </div>
+
+        <div id="scanner-loading" style="display:none;text-align:center;padding:30px 0;">
+          <div class="scanner-spinner"></div>
+          <div style="margin-top:12px;color:#f59e0b;font-weight:600;font-size:14px;">
+            RapidOCR 神经识别引擎分析中，正在比对 602 个任务与 282 种物品...
+          </div>
+        </div>
+
+        <div id="scanner-results" style="display:none;margin-top:16px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts in dependency order -->
+  <script src="./js/custom-select.js"></script>
+  <script src="./js/task-viewer.js"></script>
+  <script src="./js/hideout-viewer.js"></script>
+  <script src="./js/collection-viewer.js"></script>
+  <script src="./js/command-palette.js"></script>
+  <script src="./js/scanner-controller.js"></script>
+  <script src="./js/gdrive-sync.js?v=20261123-oss"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

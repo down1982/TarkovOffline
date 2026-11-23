@@ -1,0 +1,2539 @@
+{
+  "stations": [
+    {
+      "id": "5d484fc0654e76006657e0ab",
+      "name": "仓库",
+      "icon": "./uploads/hideout/5d484fc0654e76006657e0ab.webp",
+      "base_level": 1,
+      "max_level": 4,
+      "levels": [
+        {
+          "level": 2,
+          "key": "5d484fc0654e76006657e0ab_2",
+          "money": {
+            "RUB": 2500000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "59e35ef086f7741777737012",
+              "name": "一包螺钉",
+              "count": 10,
+              "icon": "./uploads/base/59e35ef086f7741777737012-base-image.webp"
+            },
+            {
+              "id": "590c5bbd86f774785762df04",
+              "name": "100毫升WD-40",
+              "count": 4,
+              "icon": "./uploads/base/590c5bbd86f774785762df04-base-image.webp"
+            },
+            {
+              "id": "590c31c586f774245e3141b2",
+              "name": "一包钉子",
+              "count": 5,
+              "icon": "./uploads/base/590c31c586f774245e3141b2-base-image.webp"
+            },
+            {
+              "id": "5d1b317c86f7742523398392",
+              "name": "手摇钻",
+              "count": 1,
+              "icon": "./uploads/base/5d1b317c86f7742523398392-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d484fc0654e76006657e0ab_3",
+          "money": {
+            "RUB": 8500000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "59e35de086f7741778269d84",
+              "name": "电钻",
+              "count": 2,
+              "icon": "./uploads/base/59e35de086f7741778269d84-base-image.webp"
+            },
+            {
+              "id": "59e35ef086f7741777737012",
+              "name": "一包螺钉",
+              "count": 15,
+              "icon": "./uploads/base/59e35ef086f7741777737012-base-image.webp"
+            },
+            {
+              "id": "590c31c586f774245e3141b2",
+              "name": "一包钉子",
+              "count": 7,
+              "icon": "./uploads/base/590c31c586f774245e3141b2-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "key": "5d484fc0654e76006657e0ab_4",
+          "money": {
+            "EUR": 200000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "57347c5b245977448d35f6e1",
+              "name": "螺栓",
+              "count": 10,
+              "icon": "./uploads/base/57347c5b245977448d35f6e1-base-image.webp"
+            },
+            {
+              "id": "57347c77245977448d35f6e2",
+              "name": "螺母",
+              "count": 10,
+              "icon": "./uploads/base/57347c77245977448d35f6e2-base-image.webp"
+            },
+            {
+              "id": "590c35a486f774273531c822",
+              "name": "Shustrilo发泡密封胶",
+              "count": 8,
+              "icon": "./uploads/base/590c35a486f774273531c822-base-image.webp"
+            },
+            {
+              "id": "60391afc25aff57af81f7085",
+              "name": "棘轮扳手",
+              "count": 2,
+              "icon": "./uploads/base/60391afc25aff57af81f7085-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d484fb3654e7600681d9314",
+      "name": "安保",
+      "icon": "./uploads/hideout/5d484fb3654e7600681d9314.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d484fb3654e7600681d9314_1",
+          "money": {
+            "RUB": 20000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "590c2c9c86f774245b1f03f2",
+              "name": "施工用测量卷尺",
+              "count": 1,
+              "icon": "./uploads/base/590c2c9c86f774245b1f03f2-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d484fb3654e7600681d9314_2",
+          "money": {
+            "RUB": 45000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5af04b6486f774195a3ebb49",
+              "name": "Elite钳子",
+              "count": 1,
+              "icon": "./uploads/base/5af04b6486f774195a3ebb49-base-image.webp"
+            },
+            {
+              "id": "590c5bbd86f774785762df04",
+              "name": "100毫升WD-40",
+              "count": 2,
+              "icon": "./uploads/base/590c5bbd86f774785762df04-base-image.webp"
+            },
+            {
+              "id": "60391b0fb847c71012789415",
+              "name": "TP-200 砖型TNT",
+              "count": 2,
+              "icon": "./uploads/base/60391b0fb847c71012789415-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d484fb3654e7600681d9314_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5d1b304286f774253763a528",
+              "name": "完好的液晶显示屏",
+              "count": 2,
+              "icon": "./uploads/base/5d1b304286f774253763a528-base-image.webp"
+            },
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 10,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "5d1b2ffd86f77425243e8d17",
+              "name": "NIXXOR镜头",
+              "count": 8,
+              "icon": "./uploads/base/5d1b2ffd86f77425243e8d17-base-image.webp"
+            },
+            {
+              "id": "590c392f86f77444754deb29",
+              "name": "固态硬盘",
+              "count": 1,
+              "icon": "./uploads/base/590c392f86f77444754deb29-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d494a205b56502f18c98a06",
+      "name": "照明",
+      "icon": "./uploads/hideout/5d494a205b56502f18c98a06.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d494a205b56502f18c98a06_1",
+          "money": {
+            "RUB": 10000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "56742c284bdc2d98058b456d",
+              "name": "Crickent打火机",
+              "count": 1,
+              "icon": "./uploads/base/56742c284bdc2d98058b456d-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d494a205b56502f18c98a06_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5d1b392c86f77425243e98fe",
+              "name": "电灯泡",
+              "count": 14,
+              "icon": "./uploads/base/5d1b392c86f77425243e98fe-base-image.webp"
+            },
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 10,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d494a205b56502f18c98a06_3",
+          "money": {
+            "RUB": 50000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 12,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 12,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            },
+            {
+              "id": "5c06782b86f77426df5407d2",
+              "name": "电容",
+              "count": 7,
+              "icon": "./uploads/base/5c06782b86f77426df5407d2-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d484fe3654e76006657e0ac",
+      "name": "靶场",
+      "icon": "./uploads/hideout/5d484fe3654e76006657e0ac.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d484fe3654e76006657e0ac_1",
+          "money": {
+            "RUB": 20000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "57347c77245977448d35f6e2",
+              "name": "螺母",
+              "count": 1,
+              "icon": "./uploads/base/57347c77245977448d35f6e2-base-image.webp"
+            },
+            {
+              "id": "57347c5b245977448d35f6e1",
+              "name": "螺栓",
+              "count": 1,
+              "icon": "./uploads/base/57347c5b245977448d35f6e1-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 1,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d484fe3654e76006657e0ac_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "590c2e1186f77425357b6124",
+              "name": "一套工具",
+              "count": 1,
+              "icon": "./uploads/base/590c2e1186f77425357b6124-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 8,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            },
+            {
+              "id": "590c2c9c86f774245b1f03f2",
+              "name": "施工用测量卷尺",
+              "count": 1,
+              "icon": "./uploads/base/590c2c9c86f774245b1f03f2-base-image.webp"
+            },
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 6,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "59e35ef086f7741777737012",
+              "name": "一包螺钉",
+              "count": 3,
+              "icon": "./uploads/base/59e35ef086f7741777737012-base-image.webp"
+            },
+            {
+              "id": "5e2af22086f7746d3f3c33fa",
+              "name": "Poxeram冷焊膏",
+              "count": 3,
+              "icon": "./uploads/base/5e2af22086f7746d3f3c33fa-base-image.webp"
+            },
+            {
+              "id": "5d1b2fa286f77425227d1674",
+              "name": "电动马达",
+              "count": 3,
+              "icon": "./uploads/base/5d1b2fa286f77425227d1674-base-image.webp"
+            },
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 6,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            },
+            {
+              "id": "5b4391a586f7745321235ab2",
+              "name": "WIFI摄像头",
+              "count": 3,
+              "icon": "./uploads/base/5b4391a586f7745321235ab2-base-image.webp"
+            },
+            {
+              "id": "59e35de086f7741778269d84",
+              "name": "电钻",
+              "count": 1,
+              "icon": "./uploads/base/59e35de086f7741778269d84-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d484fe3654e76006657e0ac_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "62a0a0bb621468534a797ad5",
+              "name": "&quot;Master&quot;锉刀套装",
+              "count": 1,
+              "icon": "./uploads/base/62a0a0bb621468534a797ad5-base-image.webp"
+            },
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 10,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "590a3b0486f7743954552bdb",
+              "name": "印制电路板",
+              "count": 5,
+              "icon": "./uploads/base/590a3b0486f7743954552bdb-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 5,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            },
+            {
+              "id": "5c06782b86f77426df5407d2",
+              "name": "电容",
+              "count": 5,
+              "icon": "./uploads/base/5c06782b86f77426df5407d2-base-image.webp"
+            },
+            {
+              "id": "5d1b313086f77425227d1678",
+              "name": "相位控制继电器",
+              "count": 5,
+              "icon": "./uploads/base/5d1b313086f77425227d1678-base-image.webp"
+            },
+            {
+              "id": "59e36c6f86f774176c10a2a7",
+              "name": "电源线",
+              "count": 5,
+              "icon": "./uploads/base/59e36c6f86f774176c10a2a7-base-image.webp"
+            },
+            {
+              "id": "544fb5454bdc2df8738b456a",
+              "name": "Leatherman多功能工具钳",
+              "count": 1,
+              "icon": "./uploads/base/544fb5454bdc2df8738b456a-base-image.webp"
+            },
+            {
+              "id": "590c639286f774151567fa95",
+              "name": "技术指导文件",
+              "count": 3,
+              "icon": "./uploads/base/590c639286f774151567fa95-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d388e97081959000a123acf",
+      "name": "供暖",
+      "icon": "./uploads/hideout/5d388e97081959000a123acf.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d388e97081959000a123acf_1",
+          "money": {
+            "RUB": 25000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "57347b8b24597737dd42e192",
+              "name": "经典火柴",
+              "count": 2,
+              "icon": "./uploads/base/57347b8b24597737dd42e192-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d388e97081959000a123acf_2",
+          "money": {
+            "RUB": 50000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5e2af2bc86f7746d3f3c33fc",
+              "name": "Hunter火柴",
+              "count": 2,
+              "icon": "./uploads/base/5e2af2bc86f7746d3f3c33fc-base-image.webp"
+            },
+            {
+              "id": "590a373286f774287540368b",
+              "name": "固体燃料",
+              "count": 5,
+              "icon": "./uploads/base/590a373286f774287540368b-base-image.webp"
+            },
+            {
+              "id": "56742c284bdc2d98058b456d",
+              "name": "Crickent打火机",
+              "count": 5,
+              "icon": "./uploads/base/56742c284bdc2d98058b456d-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d388e97081959000a123acf_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5d1c774f86f7746d6620f8db",
+              "name": "螺旋散热器",
+              "count": 10,
+              "icon": "./uploads/base/5d1c774f86f7746d6620f8db-base-image.webp"
+            },
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 10,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "5d1b313086f77425227d1678",
+              "name": "相位控制继电器",
+              "count": 4,
+              "icon": "./uploads/base/5d1b313086f77425227d1678-base-image.webp"
+            },
+            {
+              "id": "619cbf476b8a1b37a54eebf8",
+              "name": "军用波纹软管",
+              "count": 2,
+              "icon": "./uploads/base/619cbf476b8a1b37a54eebf8-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d473c1e081959000e530190",
+      "name": "通风",
+      "icon": "./uploads/hideout/5d473c1e081959000e530190.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d473c1e081959000e530190_1",
+          "money": {
+            "RUB": 25000
+          },
+          "stations": [],
+          "items": []
+        },
+        {
+          "level": 2,
+          "key": "5d473c1e081959000e530190_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5d1b2fa286f77425227d1674",
+              "name": "电动马达",
+              "count": 1,
+              "icon": "./uploads/base/5d1b2fa286f77425227d1674-base-image.webp"
+            },
+            {
+              "id": "5733279d245977289b77ec24",
+              "name": "汽车蓄电池",
+              "count": 1,
+              "icon": "./uploads/base/5733279d245977289b77ec24-base-image.webp"
+            },
+            {
+              "id": "5734779624597737e04bf329",
+              "name": "CPU风扇",
+              "count": 5,
+              "icon": "./uploads/base/5734779624597737e04bf329-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 5,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d473c1e081959000e530190_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 14,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "590a3b0486f7743954552bdb",
+              "name": "印制电路板",
+              "count": 5,
+              "icon": "./uploads/base/590a3b0486f7743954552bdb-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 10,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            },
+            {
+              "id": "5d1b2fa286f77425227d1674",
+              "name": "电动马达",
+              "count": 4,
+              "icon": "./uploads/base/5d1b2fa286f77425227d1674-base-image.webp"
+            },
+            {
+              "id": "5733279d245977289b77ec24",
+              "name": "汽车蓄电池",
+              "count": 4,
+              "icon": "./uploads/base/5733279d245977289b77ec24-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d484fd1654e76006732bf2e",
+      "name": "营养部",
+      "icon": "./uploads/hideout/5d484fd1654e76006732bf2e.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d484fd1654e76006732bf2e_1",
+          "money": {
+            "RUB": 25000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5d1b313086f77425227d1678",
+              "name": "相位控制继电器",
+              "count": 2,
+              "icon": "./uploads/base/5d1b313086f77425227d1678-base-image.webp"
+            },
+            {
+              "id": "59e36c6f86f774176c10a2a7",
+              "name": "电源线",
+              "count": 1,
+              "icon": "./uploads/base/59e36c6f86f774176c10a2a7-base-image.webp"
+            },
+            {
+              "id": "62a09ee4cf4a99369e262453",
+              "name": "罐装白盐",
+              "count": 1,
+              "icon": "./uploads/base/62a09ee4cf4a99369e262453-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d484fd1654e76006732bf2e_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "590c311186f77424d1667482",
+              "name": "扳手",
+              "count": 4,
+              "icon": "./uploads/base/590c311186f77424d1667482-base-image.webp"
+            },
+            {
+              "id": "59e35cbb86f7741778269d83",
+              "name": "波纹软管",
+              "count": 4,
+              "icon": "./uploads/base/59e35cbb86f7741778269d83-base-image.webp"
+            },
+            {
+              "id": "59faf98186f774067b6be103",
+              "name": "碱性换热器表面洗涤剂",
+              "count": 2,
+              "icon": "./uploads/base/59faf98186f774067b6be103-base-image.webp"
+            },
+            {
+              "id": "5d1b313086f77425227d1678",
+              "name": "相位控制继电器",
+              "count": 3,
+              "icon": "./uploads/base/5d1b313086f77425227d1678-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d484fd1654e76006732bf2e_3",
+          "money": {
+            "RUB": 125000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5af0484c86f7740f02001f7f",
+              "name": "罐装 Majaica 咖啡豆",
+              "count": 5,
+              "icon": "./uploads/base/5af0484c86f7740f02001f7f-base-image.webp"
+            },
+            {
+              "id": "59e35abd86f7741778269d82",
+              "name": "碳酸氢钠",
+              "count": 5,
+              "icon": "./uploads/base/59e35abd86f7741778269d82-base-image.webp"
+            },
+            {
+              "id": "5e2af00086f7746d3f3c33f7",
+              "name": "Smoked Chimney下水道清洁剂",
+              "count": 2,
+              "icon": "./uploads/base/5e2af00086f7746d3f3c33f7-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d484fba654e7600691aadf7",
+      "name": "卫生间",
+      "icon": "./uploads/hideout/5d484fba654e7600691aadf7.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d484fba654e7600691aadf7_1",
+          "money": {
+            "RUB": 2000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5c13cef886f774072e618e82",
+              "name": "卫生纸",
+              "count": 1,
+              "icon": "./uploads/base/5c13cef886f774072e618e82-base-image.webp"
+            },
+            {
+              "id": "57347c93245977448d35f6e3",
+              "name": "牙膏",
+              "count": 1,
+              "icon": "./uploads/base/57347c93245977448d35f6e3-base-image.webp"
+            },
+            {
+              "id": "5c13cd2486f774072c757944",
+              "name": "肥皂",
+              "count": 1,
+              "icon": "./uploads/base/5c13cd2486f774072c757944-base-image.webp"
+            },
+            {
+              "id": "62a0a098de7ac8199358053b",
+              "name": "缝纫锥",
+              "count": 1,
+              "icon": "./uploads/base/62a0a098de7ac8199358053b-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d484fba654e7600691aadf7_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "59e35cbb86f7741778269d83",
+              "name": "波纹软管",
+              "count": 6,
+              "icon": "./uploads/base/59e35cbb86f7741778269d83-base-image.webp"
+            },
+            {
+              "id": "59e35ef086f7741777737012",
+              "name": "一包螺钉",
+              "count": 6,
+              "icon": "./uploads/base/59e35ef086f7741777737012-base-image.webp"
+            },
+            {
+              "id": "59e35de086f7741778269d84",
+              "name": "电钻",
+              "count": 1,
+              "icon": "./uploads/base/59e35de086f7741778269d84-base-image.webp"
+            },
+            {
+              "id": "5e2af29386f7746d4159f077",
+              "name": "KEKTAPE管道胶带",
+              "count": 3,
+              "icon": "./uploads/base/5e2af29386f7746d4159f077-base-image.webp"
+            },
+            {
+              "id": "61bf83814088ec1a363d7097",
+              "name": "针线盒",
+              "count": 2,
+              "icon": "./uploads/base/61bf83814088ec1a363d7097-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d484fba654e7600691aadf7_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "59e35cbb86f7741778269d83",
+              "name": "波纹软管",
+              "count": 10,
+              "icon": "./uploads/base/59e35cbb86f7741778269d83-base-image.webp"
+            },
+            {
+              "id": "590c346786f77423e50ed342",
+              "name": "Xenomorph发泡密封胶",
+              "count": 6,
+              "icon": "./uploads/base/590c346786f77423e50ed342-base-image.webp"
+            },
+            {
+              "id": "5d1b327086f7742525194449",
+              "name": "压力表",
+              "count": 2,
+              "icon": "./uploads/base/5d1b327086f7742525194449-base-image.webp"
+            },
+            {
+              "id": "590c2e1186f77425357b6124",
+              "name": "一套工具",
+              "count": 1,
+              "icon": "./uploads/base/590c2e1186f77425357b6124-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d484fd6654e76051d3cc791",
+      "name": "休息区",
+      "icon": "./uploads/hideout/5d484fd6654e76051d3cc791.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d484fd6654e76051d3cc791_1",
+          "money": {
+            "RUB": 10000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "57347c1124597737fb1379e3",
+              "name": "管道胶带",
+              "count": 1,
+              "icon": "./uploads/base/57347c1124597737fb1379e3-base-image.webp"
+            },
+            {
+              "id": "57347b8b24597737dd42e192",
+              "name": "经典火柴",
+              "count": 1,
+              "icon": "./uploads/base/57347b8b24597737dd42e192-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d484fd6654e76051d3cc791_2",
+          "money": {
+            "RUB": 75000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5734781f24597737e04bf32a",
+              "name": "DVD光驱",
+              "count": 1,
+              "icon": "./uploads/base/5734781f24597737e04bf32a-base-image.webp"
+            },
+            {
+              "id": "590a391c86f774385a33c404",
+              "name": "电磁铁",
+              "count": 1,
+              "icon": "./uploads/base/590a391c86f774385a33c404-base-image.webp"
+            },
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 5,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d484fd6654e76051d3cc791_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "59e36c6f86f774176c10a2a7",
+              "name": "电源线",
+              "count": 5,
+              "icon": "./uploads/base/59e36c6f86f774176c10a2a7-base-image.webp"
+            },
+            {
+              "id": "5c06782b86f77426df5407d2",
+              "name": "电容",
+              "count": 5,
+              "icon": "./uploads/base/5c06782b86f77426df5407d2-base-image.webp"
+            },
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 10,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "5e2aedd986f7746d404f3aa4",
+              "name": "GreenBat锂电池",
+              "count": 4,
+              "icon": "./uploads/base/5e2aedd986f7746d404f3aa4-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d484fcd654e7668ec2ec322",
+      "name": "医疗站",
+      "icon": "./uploads/hideout/5d484fcd654e7668ec2ec322.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d484fcd654e7668ec2ec322_1",
+          "money": {
+            "RUB": 50000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5d1b3f2d86f774253763b735",
+              "name": "一次性注射器",
+              "count": 1,
+              "icon": "./uploads/base/5d1b3f2d86f774253763b735-base-image.webp"
+            },
+            {
+              "id": "5d1b3a5d86f774252167ba22",
+              "name": "一堆药",
+              "count": 1,
+              "icon": "./uploads/base/5d1b3a5d86f774252167ba22-base-image.webp"
+            },
+            {
+              "id": "62a0a043cf4a99369e2624a5",
+              "name": "OLOLO瓶装复合维生素",
+              "count": 1,
+              "icon": "./uploads/base/62a0a043cf4a99369e2624a5-base-image.webp"
+            },
+            {
+              "id": "544fb25a4bdc2dfb738b4567",
+              "name": "无菌绷带",
+              "count": 2,
+              "icon": "./uploads/base/544fb25a4bdc2dfb738b4567-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d484fcd654e7668ec2ec322_2",
+          "money": {
+            "RUB": 150000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5b4335ba86f7744d2837a264",
+              "name": "医用输血工具",
+              "count": 2,
+              "icon": "./uploads/base/5b4335ba86f7744d2837a264-base-image.webp"
+            },
+            {
+              "id": "59e3606886f77417674759a5",
+              "name": "盐水溶液",
+              "count": 6,
+              "icon": "./uploads/base/59e3606886f77417674759a5-base-image.webp"
+            },
+            {
+              "id": "5e831507ea0a7c419c2f9bd9",
+              "name": "Esmarch止血带",
+              "count": 10,
+              "icon": "./uploads/base/5e831507ea0a7c419c2f9bd9-base-image.webp"
+            },
+            {
+              "id": "619cc01e0a7c3a1a2731940c",
+              "name": "医疗工具",
+              "count": 3,
+              "icon": "./uploads/base/619cc01e0a7c3a1a2731940c-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d484fcd654e7668ec2ec322_3",
+          "money": {
+            "RUB": 500000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "59e3606886f77417674759a5",
+              "name": "盐水溶液",
+              "count": 10,
+              "icon": "./uploads/base/59e3606886f77417674759a5-base-image.webp"
+            },
+            {
+              "id": "5c0530ee86f774697952d952",
+              "name": "LEDX皮肤透照仪",
+              "count": 1,
+              "icon": "./uploads/base/5c0530ee86f774697952d952-base-image.webp"
+            },
+            {
+              "id": "5af0534a86f7743b6f354284",
+              "name": "检眼镜",
+              "count": 1,
+              "icon": "./uploads/base/5af0534a86f7743b6f354284-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d3b396e33c48f02b81cd9f3",
+      "name": "发电机",
+      "icon": "./uploads/hideout/5d3b396e33c48f02b81cd9f3.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d3b396e33c48f02b81cd9f3_1",
+          "money": {
+            "RUB": 100000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "590a3c0a86f774385a33c450",
+              "name": "火花塞",
+              "count": 1,
+              "icon": "./uploads/base/590a3c0a86f774385a33c450-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d3b396e33c48f02b81cd9f3_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5d1b313086f77425227d1678",
+              "name": "相位控制继电器",
+              "count": 10,
+              "icon": "./uploads/base/5d1b313086f77425227d1678-base-image.webp"
+            },
+            {
+              "id": "5d1b2fa286f77425227d1674",
+              "name": "电动马达",
+              "count": 1,
+              "icon": "./uploads/base/5d1b2fa286f77425227d1674-base-image.webp"
+            },
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 15,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "619cbfeb6b8a1b37a54eebfa",
+              "name": "Bulbex剪线器",
+              "count": 1,
+              "icon": "./uploads/base/619cbfeb6b8a1b37a54eebfa-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d3b396e33c48f02b81cd9f3_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5d1b313086f77425227d1678",
+              "name": "相位控制继电器",
+              "count": 12,
+              "icon": "./uploads/base/5d1b313086f77425227d1678-base-image.webp"
+            },
+            {
+              "id": "5d1b2fa286f77425227d1674",
+              "name": "电动马达",
+              "count": 3,
+              "icon": "./uploads/base/5d1b2fa286f77425227d1674-base-image.webp"
+            },
+            {
+              "id": "590a3c0a86f774385a33c450",
+              "name": "火花塞",
+              "count": 16,
+              "icon": "./uploads/base/590a3c0a86f774385a33c450-base-image.webp"
+            },
+            {
+              "id": "57347c2e24597744902c94a1",
+              "name": "供电单元",
+              "count": 5,
+              "icon": "./uploads/base/57347c2e24597744902c94a1-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 10,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d484fda654e7600681d9315",
+      "name": "工作台",
+      "icon": "./uploads/hideout/5d484fda654e7600681d9315.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d484fda654e7600681d9315_1",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "57347c77245977448d35f6e2",
+              "name": "螺母",
+              "count": 2,
+              "icon": "./uploads/base/57347c77245977448d35f6e2-base-image.webp"
+            },
+            {
+              "id": "57347c5b245977448d35f6e1",
+              "name": "螺栓",
+              "count": 2,
+              "icon": "./uploads/base/57347c5b245977448d35f6e1-base-image.webp"
+            },
+            {
+              "id": "544fb5454bdc2df8738b456a",
+              "name": "Leatherman多功能工具钳",
+              "count": 1,
+              "icon": "./uploads/base/544fb5454bdc2df8738b456a-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d484fda654e7600681d9315_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "590c2e1186f77425357b6124",
+              "name": "一套工具",
+              "count": 3,
+              "icon": "./uploads/base/590c2e1186f77425357b6124-base-image.webp"
+            },
+            {
+              "id": "59e35de086f7741778269d84",
+              "name": "电钻",
+              "count": 2,
+              "icon": "./uploads/base/59e35de086f7741778269d84-base-image.webp"
+            },
+            {
+              "id": "57347c5b245977448d35f6e1",
+              "name": "螺栓",
+              "count": 10,
+              "icon": "./uploads/base/57347c5b245977448d35f6e1-base-image.webp"
+            },
+            {
+              "id": "5d1c819a86f774771b0acd6c",
+              "name": "武器零件",
+              "count": 3,
+              "icon": "./uploads/base/5d1c819a86f774771b0acd6c-base-image.webp"
+            },
+            {
+              "id": "62a0a0bb621468534a797ad5",
+              "name": "&quot;Master&quot;锉刀套装",
+              "count": 1,
+              "icon": "./uploads/base/62a0a0bb621468534a797ad5-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d484fda654e7600681d9315_3",
+          "money": {
+            "RUB": 395000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "60391a8b3364dc22b04d0ce5",
+              "name": "罐装铝热剂",
+              "count": 5,
+              "icon": "./uploads/base/60391a8b3364dc22b04d0ce5-base-image.webp"
+            },
+            {
+              "id": "5af04b6486f774195a3ebb49",
+              "name": "Elite钳子",
+              "count": 2,
+              "icon": "./uploads/base/5af04b6486f774195a3ebb49-base-image.webp"
+            },
+            {
+              "id": "5bc9b355d4351e6d1509862a",
+              "name": "#FireKlean牌枪润滑油",
+              "count": 1,
+              "icon": "./uploads/base/5bc9b355d4351e6d1509862a-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d484fc8654e760065037abf",
+      "name": "集水器",
+      "icon": "./uploads/hideout/5d484fc8654e760065037abf.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d484fc8654e760065037abf_1",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "59e35cbb86f7741778269d83",
+              "name": "波纹软管",
+              "count": 4,
+              "icon": "./uploads/base/59e35cbb86f7741778269d83-base-image.webp"
+            },
+            {
+              "id": "57347c5b245977448d35f6e1",
+              "name": "螺栓",
+              "count": 5,
+              "icon": "./uploads/base/57347c5b245977448d35f6e1-base-image.webp"
+            },
+            {
+              "id": "57347c77245977448d35f6e2",
+              "name": "螺母",
+              "count": 5,
+              "icon": "./uploads/base/57347c77245977448d35f6e2-base-image.webp"
+            },
+            {
+              "id": "57347c1124597737fb1379e3",
+              "name": "管道胶带",
+              "count": 3,
+              "icon": "./uploads/base/57347c1124597737fb1379e3-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d484fc8654e760065037abf_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "59e35cbb86f7741778269d83",
+              "name": "波纹软管",
+              "count": 6,
+              "icon": "./uploads/base/59e35cbb86f7741778269d83-base-image.webp"
+            },
+            {
+              "id": "5d1b2fa286f77425227d1674",
+              "name": "电动马达",
+              "count": 2,
+              "icon": "./uploads/base/5d1b2fa286f77425227d1674-base-image.webp"
+            },
+            {
+              "id": "590c2e1186f77425357b6124",
+              "name": "一套工具",
+              "count": 2,
+              "icon": "./uploads/base/590c2e1186f77425357b6124-base-image.webp"
+            },
+            {
+              "id": "5e2af29386f7746d4159f077",
+              "name": "KEKTAPE管道胶带",
+              "count": 5,
+              "icon": "./uploads/base/5e2af29386f7746d4159f077-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d484fc8654e760065037abf_3",
+          "money": {
+            "RUB": 20000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "590c35a486f774273531c822",
+              "name": "Shustrilo发泡密封胶",
+              "count": 10,
+              "icon": "./uploads/base/590c35a486f774273531c822-base-image.webp"
+            },
+            {
+              "id": "5af04b6486f774195a3ebb49",
+              "name": "Elite钳子",
+              "count": 2,
+              "icon": "./uploads/base/5af04b6486f774195a3ebb49-base-image.webp"
+            },
+            {
+              "id": "60391afc25aff57af81f7085",
+              "name": "棘轮扳手",
+              "count": 1,
+              "icon": "./uploads/base/60391afc25aff57af81f7085-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d484fdf654e7600691aadf8",
+      "name": "情报中心",
+      "icon": "./uploads/hideout/5d484fdf654e7600691aadf8.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d484fdf654e7600691aadf8_1",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5c12613b86f7743bbe2c3f76",
+              "name": "情报文件夹",
+              "count": 1,
+              "icon": "./uploads/base/5c12613b86f7743bbe2c3f76-base-image.webp"
+            },
+            {
+              "id": "62a0a124de7ac81993580542",
+              "name": "地形调查地图",
+              "count": 1,
+              "icon": "./uploads/base/62a0a124de7ac81993580542-base-image.webp"
+            },
+            {
+              "id": "574eb85c245977648157eec3",
+              "name": "工厂地图",
+              "count": 1,
+              "icon": "./uploads/base/574eb85c245977648157eec3-base-image.webp"
+            },
+            {
+              "id": "5d1b304286f774253763a528",
+              "name": "完好的液晶显示屏",
+              "count": 1,
+              "icon": "./uploads/base/5d1b304286f774253763a528-base-image.webp"
+            },
+            {
+              "id": "59e36c6f86f774176c10a2a7",
+              "name": "电源线",
+              "count": 1,
+              "icon": "./uploads/base/59e36c6f86f774176c10a2a7-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d484fdf654e7600691aadf8_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5c12613b86f7743bbe2c3f76",
+              "name": "情报文件夹",
+              "count": 3,
+              "icon": "./uploads/base/5c12613b86f7743bbe2c3f76-base-image.webp"
+            },
+            {
+              "id": "590c621186f774138d11ea29",
+              "name": "加密U盘",
+              "count": 3,
+              "icon": "./uploads/base/590c621186f774138d11ea29-base-image.webp"
+            },
+            {
+              "id": "59e36c6f86f774176c10a2a7",
+              "name": "电源线",
+              "count": 7,
+              "icon": "./uploads/base/59e36c6f86f774176c10a2a7-base-image.webp"
+            },
+            {
+              "id": "590a386e86f77429692b27ab",
+              "name": "损坏的硬盘",
+              "count": 8,
+              "icon": "./uploads/base/590a386e86f77429692b27ab-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d484fdf654e7600691aadf8_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5c05300686f7746dce784e5d",
+              "name": "VPX闪存模块",
+              "count": 2,
+              "icon": "./uploads/base/5c05300686f7746dce784e5d-base-image.webp"
+            },
+            {
+              "id": "62a0a16d0b9d3c46de5b6e97",
+              "name": "军用闪存装置",
+              "count": 8,
+              "icon": "./uploads/base/62a0a16d0b9d3c46de5b6e97-base-image.webp"
+            },
+            {
+              "id": "5d0375ff86f774186372f685",
+              "name": "军用电缆",
+              "count": 8,
+              "icon": "./uploads/base/5d0375ff86f774186372f685-base-image.webp"
+            },
+            {
+              "id": "61bf7c024770ee6f9c6b8b53",
+              "name": "加密磁带盒",
+              "count": 2,
+              "icon": "./uploads/base/61bf7c024770ee6f9c6b8b53-base-image.webp"
+            },
+            {
+              "id": "6389c7f115805221fb410466",
+              "name": "GPS信号放大单元",
+              "count": 1,
+              "icon": "./uploads/base/6389c7f115805221fb410466-base-image.webp"
+            },
+            {
+              "id": "5c052f6886f7746b1e3db148",
+              "name": "军用COFDM无线信号发射器",
+              "count": 2,
+              "icon": "./uploads/base/5c052f6886f7746b1e3db148-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "637b39f02e873739ec490215",
+      "name": "易碎墙",
+      "icon": "./uploads/hideout/637b39f02e873739ec490215.webp",
+      "base_level": 3,
+      "max_level": 6,
+      "levels": [
+        {
+          "level": 4,
+          "key": "637b39f02e873739ec490215_4",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "63a0b208f444d32d6f03ea1e",
+              "name": "Fierce Blow重击锤",
+              "count": 1,
+              "icon": "./uploads/base/63a0b208f444d32d6f03ea1e-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "key": "637b39f02e873739ec490215_5",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5d40419286f774318526545f",
+              "name": "金属切割剪刀",
+              "count": 1,
+              "icon": "./uploads/base/5d40419286f774318526545f-base-image.webp"
+            },
+            {
+              "id": "590c2e1186f77425357b6124",
+              "name": "一套工具",
+              "count": 1,
+              "icon": "./uploads/base/590c2e1186f77425357b6124-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "key": "637b39f02e873739ec490215_6",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "59e35cbb86f7741778269d83",
+              "name": "波纹软管",
+              "count": 2,
+              "icon": "./uploads/base/59e35cbb86f7741778269d83-base-image.webp"
+            },
+            {
+              "id": "57347c1124597737fb1379e3",
+              "name": "管道胶带",
+              "count": 1,
+              "icon": "./uploads/base/57347c1124597737fb1379e3-base-image.webp"
+            },
+            {
+              "id": "590c2e1186f77425357b6124",
+              "name": "一套工具",
+              "count": 1,
+              "icon": "./uploads/base/590c2e1186f77425357b6124-base-image.webp"
+            },
+            {
+              "id": "5af04b6486f774195a3ebb49",
+              "name": "Elite钳子",
+              "count": 1,
+              "icon": "./uploads/base/5af04b6486f774195a3ebb49-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 5,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            },
+            {
+              "id": "590c346786f77423e50ed342",
+              "name": "Xenomorph发泡密封胶",
+              "count": 1,
+              "icon": "./uploads/base/590c346786f77423e50ed342-base-image.webp"
+            },
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 2,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "5d1b392c86f77425243e98fe",
+              "name": "电灯泡",
+              "count": 2,
+              "icon": "./uploads/base/5d1b392c86f77425243e98fe-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6377a9b9a93bde8fa30eb79a",
+      "name": "健身区",
+      "icon": "./uploads/hideout/6377a9b9a93bde8fa30eb79a.webp",
+      "base_level": 0,
+      "max_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "key": "6377a9b9a93bde8fa30eb79a_1",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "57347c77245977448d35f6e2",
+              "name": "螺母",
+              "count": 5,
+              "icon": "./uploads/base/57347c77245977448d35f6e2-base-image.webp"
+            },
+            {
+              "id": "57347c5b245977448d35f6e1",
+              "name": "螺栓",
+              "count": 5,
+              "icon": "./uploads/base/57347c5b245977448d35f6e1-base-image.webp"
+            },
+            {
+              "id": "5734795124597738002c6176",
+              "name": "绝缘胶带",
+              "count": 5,
+              "icon": "./uploads/base/5734795124597738002c6176-base-image.webp"
+            },
+            {
+              "id": "590c5bbd86f774785762df04",
+              "name": "100毫升WD-40",
+              "count": 1,
+              "icon": "./uploads/base/590c5bbd86f774785762df04-base-image.webp"
+            },
+            {
+              "id": "590c2e1186f77425357b6124",
+              "name": "一套工具",
+              "count": 1,
+              "icon": "./uploads/base/590c2e1186f77425357b6124-base-image.webp"
+            },
+            {
+              "id": "59e35de086f7741778269d84",
+              "name": "电钻",
+              "count": 1,
+              "icon": "./uploads/base/59e35de086f7741778269d84-base-image.webp"
+            },
+            {
+              "id": "5d40419286f774318526545f",
+              "name": "金属切割剪刀",
+              "count": 1,
+              "icon": "./uploads/base/5d40419286f774318526545f-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d494a445b56502f18c98a10",
+      "name": "比特币矿场",
+      "icon": "./uploads/hideout/5d494a445b56502f18c98a10.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d494a445b56502f18c98a10_1",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5734779624597737e04bf329",
+              "name": "CPU风扇",
+              "count": 15,
+              "icon": "./uploads/base/5734779624597737e04bf329-base-image.webp"
+            },
+            {
+              "id": "57347c2e24597744902c94a1",
+              "name": "供电单元",
+              "count": 10,
+              "icon": "./uploads/base/57347c2e24597744902c94a1-base-image.webp"
+            },
+            {
+              "id": "59e36c6f86f774176c10a2a7",
+              "name": "电源线",
+              "count": 15,
+              "icon": "./uploads/base/59e36c6f86f774176c10a2a7-base-image.webp"
+            },
+            {
+              "id": "5c05300686f7746dce784e5d",
+              "name": "VPX闪存模块",
+              "count": 2,
+              "icon": "./uploads/base/5c05300686f7746dce784e5d-base-image.webp"
+            },
+            {
+              "id": "57347cd0245977445a2d6ff1",
+              "name": "T形插座",
+              "count": 10,
+              "icon": "./uploads/base/57347cd0245977445a2d6ff1-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d494a445b56502f18c98a10_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5734779624597737e04bf329",
+              "name": "CPU风扇",
+              "count": 15,
+              "icon": "./uploads/base/5734779624597737e04bf329-base-image.webp"
+            },
+            {
+              "id": "57347c2e24597744902c94a1",
+              "name": "供电单元",
+              "count": 10,
+              "icon": "./uploads/base/57347c2e24597744902c94a1-base-image.webp"
+            },
+            {
+              "id": "590a3b0486f7743954552bdb",
+              "name": "印制电路板",
+              "count": 15,
+              "icon": "./uploads/base/590a3b0486f7743954552bdb-base-image.webp"
+            },
+            {
+              "id": "5d1b313086f77425227d1678",
+              "name": "相位控制继电器",
+              "count": 10,
+              "icon": "./uploads/base/5d1b313086f77425227d1678-base-image.webp"
+            },
+            {
+              "id": "5d0378d486f77420421a5ff4",
+              "name": "军用电源滤波器",
+              "count": 5,
+              "icon": "./uploads/base/5d0378d486f77420421a5ff4-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d494a445b56502f18c98a10_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5734779624597737e04bf329",
+              "name": "CPU风扇",
+              "count": 25,
+              "icon": "./uploads/base/5734779624597737e04bf329-base-image.webp"
+            },
+            {
+              "id": "5d1b39a386f774252339976f",
+              "name": "硅胶管",
+              "count": 15,
+              "icon": "./uploads/base/5d1b39a386f774252339976f-base-image.webp"
+            },
+            {
+              "id": "5d1b2fa286f77425227d1674",
+              "name": "电动马达",
+              "count": 10,
+              "icon": "./uploads/base/5d1b2fa286f77425227d1674-base-image.webp"
+            },
+            {
+              "id": "5d1b327086f7742525194449",
+              "name": "压力表",
+              "count": 10,
+              "icon": "./uploads/base/5d1b327086f7742525194449-base-image.webp"
+            },
+            {
+              "id": "5d03794386f77420415576f5",
+              "name": "6-STEN-140-M军用电池",
+              "count": 2,
+              "icon": "./uploads/base/5d03794386f77420415576f5-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d494a3f5b56502f18c98a0e",
+      "name": "酿酒处",
+      "icon": "./uploads/hideout/5d494a3f5b56502f18c98a0e.webp",
+      "base_level": 0,
+      "max_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d494a3f5b56502f18c98a0e_1",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5d1b39a386f774252339976f",
+              "name": "硅胶管",
+              "count": 10,
+              "icon": "./uploads/base/5d1b39a386f774252339976f-base-image.webp"
+            },
+            {
+              "id": "59e35cbb86f7741778269d83",
+              "name": "波纹软管",
+              "count": 10,
+              "icon": "./uploads/base/59e35cbb86f7741778269d83-base-image.webp"
+            },
+            {
+              "id": "5d1c774f86f7746d6620f8db",
+              "name": "螺旋散热器",
+              "count": 5,
+              "icon": "./uploads/base/5d1c774f86f7746d6620f8db-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 5,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            },
+            {
+              "id": "5d1b32c186f774252167a530",
+              "name": "模拟温度计",
+              "count": 2,
+              "icon": "./uploads/base/5d1b32c186f774252167a530-base-image.webp"
+            },
+            {
+              "id": "5d1b327086f7742525194449",
+              "name": "压力表",
+              "count": 2,
+              "icon": "./uploads/base/5d1b327086f7742525194449-base-image.webp"
+            },
+            {
+              "id": "619cbfccbedcde2f5b3f7bdd",
+              "name": "管道扳手",
+              "count": 1,
+              "icon": "./uploads/base/619cbfccbedcde2f5b3f7bdd-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d494a0e5b56502f18c98a02",
+      "name": "图书馆",
+      "icon": "./uploads/hideout/5d494a0e5b56502f18c98a02.webp",
+      "base_level": 0,
+      "max_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d494a0e5b56502f18c98a02_1",
+          "money": {
+            "RUB": 400000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "590c639286f774151567fa95",
+              "name": "技术指导文件",
+              "count": 8,
+              "icon": "./uploads/base/590c639286f774151567fa95-base-image.webp"
+            },
+            {
+              "id": "590c645c86f77412b01304d9",
+              "name": "日记",
+              "count": 5,
+              "icon": "./uploads/base/590c645c86f77412b01304d9-base-image.webp"
+            },
+            {
+              "id": "590c651286f7741e566b6461",
+              "name": "袖珍日记",
+              "count": 5,
+              "icon": "./uploads/base/590c651286f7741e566b6461-base-image.webp"
+            },
+            {
+              "id": "573478bc24597738002c6175",
+              "name": "马雕像",
+              "count": 1,
+              "icon": "./uploads/base/573478bc24597738002c6175-base-image.webp"
+            },
+            {
+              "id": "573474f924597738002c6174",
+              "name": "项链",
+              "count": 2,
+              "icon": "./uploads/base/573474f924597738002c6174-base-image.webp"
+            },
+            {
+              "id": "62a09e73af34e73a266d932a",
+              "name": "BakeEzy烹饪书",
+              "count": 1,
+              "icon": "./uploads/base/62a09e73af34e73a266d932a-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d494a385b56502f18c98a0c",
+      "name": "太阳能",
+      "icon": "./uploads/hideout/5d494a385b56502f18c98a0c.webp",
+      "base_level": 0,
+      "max_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d494a385b56502f18c98a0c_1",
+          "money": {
+            "EUR": 25000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5d0375ff86f774186372f685",
+              "name": "军用电缆",
+              "count": 10,
+              "icon": "./uploads/base/5d0375ff86f774186372f685-base-image.webp"
+            },
+            {
+              "id": "5d03775b86f774203e7e0c4b",
+              "name": "相控阵单元",
+              "count": 6,
+              "icon": "./uploads/base/5d03775b86f774203e7e0c4b-base-image.webp"
+            },
+            {
+              "id": "5d0378d486f77420421a5ff4",
+              "name": "军用电源滤波器",
+              "count": 10,
+              "icon": "./uploads/base/5d0378d486f77420421a5ff4-base-image.webp"
+            },
+            {
+              "id": "6389c85357baa773a825b356",
+              "name": "直流变压器",
+              "count": 1,
+              "icon": "./uploads/base/6389c85357baa773a825b356-base-image.webp"
+            },
+            {
+              "id": "5d1b304286f774253763a528",
+              "name": "完好的液晶显示屏",
+              "count": 3,
+              "icon": "./uploads/base/5d1b304286f774253763a528-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "63db64cbf9963741dc0d741f",
+      "name": "武器架",
+      "icon": "./uploads/hideout/63db64cbf9963741dc0d741f.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "63db64cbf9963741dc0d741f_1",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 5,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            },
+            {
+              "id": "590c346786f77423e50ed342",
+              "name": "Xenomorph发泡密封胶",
+              "count": 5,
+              "icon": "./uploads/base/590c346786f77423e50ed342-base-image.webp"
+            },
+            {
+              "id": "57347c5b245977448d35f6e1",
+              "name": "螺栓",
+              "count": 15,
+              "icon": "./uploads/base/57347c5b245977448d35f6e1-base-image.webp"
+            },
+            {
+              "id": "5734795124597738002c6176",
+              "name": "绝缘胶带",
+              "count": 5,
+              "icon": "./uploads/base/5734795124597738002c6176-base-image.webp"
+            },
+            {
+              "id": "590c31c586f774245e3141b2",
+              "name": "一包钉子",
+              "count": 5,
+              "icon": "./uploads/base/590c31c586f774245e3141b2-base-image.webp"
+            },
+            {
+              "id": "5d1b317c86f7742523398392",
+              "name": "手摇钻",
+              "count": 1,
+              "icon": "./uploads/base/5d1b317c86f7742523398392-base-image.webp"
+            },
+            {
+              "id": "5d40419286f774318526545f",
+              "name": "金属切割剪刀",
+              "count": 1,
+              "icon": "./uploads/base/5d40419286f774318526545f-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "63db64cbf9963741dc0d741f_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 10,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            },
+            {
+              "id": "59e35ef086f7741777737012",
+              "name": "一包螺钉",
+              "count": 10,
+              "icon": "./uploads/base/59e35ef086f7741777737012-base-image.webp"
+            },
+            {
+              "id": "57347c1124597737fb1379e3",
+              "name": "管道胶带",
+              "count": 10,
+              "icon": "./uploads/base/57347c1124597737fb1379e3-base-image.webp"
+            },
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 10,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 10,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            },
+            {
+              "id": "5d1c819a86f774771b0acd6c",
+              "name": "武器零件",
+              "count": 5,
+              "icon": "./uploads/base/5d1c819a86f774771b0acd6c-base-image.webp"
+            },
+            {
+              "id": "5e2af22086f7746d3f3c33fa",
+              "name": "Poxeram冷焊膏",
+              "count": 3,
+              "icon": "./uploads/base/5e2af22086f7746d3f3c33fa-base-image.webp"
+            },
+            {
+              "id": "59e35de086f7741778269d84",
+              "name": "电钻",
+              "count": 1,
+              "icon": "./uploads/base/59e35de086f7741778269d84-base-image.webp"
+            },
+            {
+              "id": "62a0a0bb621468534a797ad5",
+              "name": "&quot;Master&quot;锉刀套装",
+              "count": 1,
+              "icon": "./uploads/base/62a0a0bb621468534a797ad5-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "63db64cbf9963741dc0d741f_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 15,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 10,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            },
+            {
+              "id": "5c06779c86f77426e00dd782",
+              "name": "电线",
+              "count": 15,
+              "icon": "./uploads/base/5c06779c86f77426e00dd782-base-image.webp"
+            },
+            {
+              "id": "590c35a486f774273531c822",
+              "name": "Shustrilo发泡密封胶",
+              "count": 5,
+              "icon": "./uploads/base/590c35a486f774273531c822-base-image.webp"
+            },
+            {
+              "id": "59e35de086f7741778269d84",
+              "name": "电钻",
+              "count": 1,
+              "icon": "./uploads/base/59e35de086f7741778269d84-base-image.webp"
+            },
+            {
+              "id": "5e2af29386f7746d4159f077",
+              "name": "KEKTAPE管道胶带",
+              "count": 5,
+              "icon": "./uploads/base/5e2af29386f7746d4159f077-base-image.webp"
+            },
+            {
+              "id": "590c639286f774151567fa95",
+              "name": "技术指导文件",
+              "count": 1,
+              "icon": "./uploads/base/590c639286f774151567fa95-base-image.webp"
+            },
+            {
+              "id": "5bc9b355d4351e6d1509862a",
+              "name": "#FireKlean牌枪润滑油",
+              "count": 1,
+              "icon": "./uploads/base/5bc9b355d4351e6d1509862a-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "65e5bb1713227bb7690cea0a",
+      "name": "装备架",
+      "icon": "./uploads/hideout/65e5bb1713227bb7690cea0a.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "65e5bb1713227bb7690cea0a_1",
+          "money": {
+            "RUB": 300000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "544fb5454bdc2df8738b456a",
+              "name": "Leatherman多功能工具钳",
+              "count": 1,
+              "icon": "./uploads/base/544fb5454bdc2df8738b456a-base-image.webp"
+            },
+            {
+              "id": "5e2af47786f7746d404f3aaa",
+              "name": "绒布布料",
+              "count": 10,
+              "icon": "./uploads/base/5e2af47786f7746d404f3aaa-base-image.webp"
+            },
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 8,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            },
+            {
+              "id": "57347c5b245977448d35f6e1",
+              "name": "螺栓",
+              "count": 15,
+              "icon": "./uploads/base/57347c5b245977448d35f6e1-base-image.webp"
+            },
+            {
+              "id": "61bf83814088ec1a363d7097",
+              "name": "针线盒",
+              "count": 1,
+              "icon": "./uploads/base/61bf83814088ec1a363d7097-base-image.webp"
+            },
+            {
+              "id": "62a0a098de7ac8199358053b",
+              "name": "缝纫锥",
+              "count": 1,
+              "icon": "./uploads/base/62a0a098de7ac8199358053b-base-image.webp"
+            },
+            {
+              "id": "59e35de086f7741778269d84",
+              "name": "电钻",
+              "count": 1,
+              "icon": "./uploads/base/59e35de086f7741778269d84-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "65e5bb1713227bb7690cea0a_2",
+          "money": {
+            "RUB": 800000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5e2af4d286f7746d4159f07a",
+              "name": "芳纶纤维布料",
+              "count": 10,
+              "icon": "./uploads/base/5e2af4d286f7746d4159f07a-base-image.webp"
+            },
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 12,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            },
+            {
+              "id": "590c31c586f774245e3141b2",
+              "name": "一包钉子",
+              "count": 8,
+              "icon": "./uploads/base/590c31c586f774245e3141b2-base-image.webp"
+            },
+            {
+              "id": "590c35a486f774273531c822",
+              "name": "Shustrilo发泡密封胶",
+              "count": 5,
+              "icon": "./uploads/base/590c35a486f774273531c822-base-image.webp"
+            },
+            {
+              "id": "57347c1124597737fb1379e3",
+              "name": "管道胶带",
+              "count": 5,
+              "icon": "./uploads/base/57347c1124597737fb1379e3-base-image.webp"
+            },
+            {
+              "id": "590c311186f77424d1667482",
+              "name": "扳手",
+              "count": 1,
+              "icon": "./uploads/base/590c311186f77424d1667482-base-image.webp"
+            },
+            {
+              "id": "59e35de086f7741778269d84",
+              "name": "电钻",
+              "count": 1,
+              "icon": "./uploads/base/59e35de086f7741778269d84-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "65e5bb1713227bb7690cea0a_3",
+          "money": {
+            "RUB": 1200000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 15,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            },
+            {
+              "id": "5e2af29386f7746d4159f077",
+              "name": "KEKTAPE管道胶带",
+              "count": 10,
+              "icon": "./uploads/base/5e2af29386f7746d4159f077-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 15,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            },
+            {
+              "id": "5e2af41e86f774755a234b67",
+              "name": "Cordura聚酰胺面料",
+              "count": 10,
+              "icon": "./uploads/base/5e2af41e86f774755a234b67-base-image.webp"
+            },
+            {
+              "id": "60391afc25aff57af81f7085",
+              "name": "棘轮扳手",
+              "count": 1,
+              "icon": "./uploads/base/60391afc25aff57af81f7085-base-image.webp"
+            },
+            {
+              "id": "62a0a0bb621468534a797ad5",
+              "name": "&quot;Master&quot;锉刀套装",
+              "count": 1,
+              "icon": "./uploads/base/62a0a0bb621468534a797ad5-base-image.webp"
+            },
+            {
+              "id": "591094e086f7747caa7bb2ef",
+              "name": "防弹衣维修套件",
+              "count": 1,
+              "icon": "./uploads/base/591094e086f7747caa7bb2ef-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d494a295b56502f18c98a08",
+      "name": "荣耀展柜",
+      "icon": "./uploads/hideout/5d494a295b56502f18c98a08.webp",
+      "base_level": 0,
+      "max_level": 3,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d494a295b56502f18c98a08_1",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5e2af47786f7746d404f3aaa",
+              "name": "绒布布料",
+              "count": 5,
+              "icon": "./uploads/base/5e2af47786f7746d404f3aaa-base-image.webp"
+            },
+            {
+              "id": "5d1b392c86f77425243e98fe",
+              "name": "电灯泡",
+              "count": 5,
+              "icon": "./uploads/base/5d1b392c86f77425243e98fe-base-image.webp"
+            },
+            {
+              "id": "590c31c586f774245e3141b2",
+              "name": "一包钉子",
+              "count": 5,
+              "icon": "./uploads/base/590c31c586f774245e3141b2-base-image.webp"
+            },
+            {
+              "id": "5734795124597738002c6176",
+              "name": "绝缘胶带",
+              "count": 5,
+              "icon": "./uploads/base/5734795124597738002c6176-base-image.webp"
+            },
+            {
+              "id": "5d1b31ce86f7742523398394",
+              "name": "圆嘴钳",
+              "count": 1,
+              "icon": "./uploads/base/5d1b31ce86f7742523398394-base-image.webp"
+            },
+            {
+              "id": "59e3658a86f7741776641ac4",
+              "name": "猫雕像",
+              "count": 1,
+              "icon": "./uploads/base/59e3658a86f7741776641ac4-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "key": "5d494a295b56502f18c98a08_2",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 10,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            },
+            {
+              "id": "59e35ef086f7741777737012",
+              "name": "一包螺钉",
+              "count": 6,
+              "icon": "./uploads/base/59e35ef086f7741777737012-base-image.webp"
+            },
+            {
+              "id": "57347c1124597737fb1379e3",
+              "name": "管道胶带",
+              "count": 3,
+              "icon": "./uploads/base/57347c1124597737fb1379e3-base-image.webp"
+            },
+            {
+              "id": "590c346786f77423e50ed342",
+              "name": "Xenomorph发泡密封胶",
+              "count": 5,
+              "icon": "./uploads/base/590c346786f77423e50ed342-base-image.webp"
+            },
+            {
+              "id": "5e2af22086f7746d3f3c33fa",
+              "name": "Poxeram冷焊膏",
+              "count": 2,
+              "icon": "./uploads/base/5e2af22086f7746d3f3c33fa-base-image.webp"
+            },
+            {
+              "id": "590c639286f774151567fa95",
+              "name": "技术指导文件",
+              "count": 1,
+              "icon": "./uploads/base/590c639286f774151567fa95-base-image.webp"
+            },
+            {
+              "id": "5af04b6486f774195a3ebb49",
+              "name": "Elite钳子",
+              "count": 1,
+              "icon": "./uploads/base/5af04b6486f774195a3ebb49-base-image.webp"
+            },
+            {
+              "id": "590c2e1186f77425357b6124",
+              "name": "一套工具",
+              "count": 1,
+              "icon": "./uploads/base/590c2e1186f77425357b6124-base-image.webp"
+            },
+            {
+              "id": "5bc9bc53d4351e00367fbcee",
+              "name": "金公鸡塑像",
+              "count": 1,
+              "icon": "./uploads/base/5bc9bc53d4351e00367fbcee-base-image.webp"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "key": "5d494a295b56502f18c98a08_3",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "590a3cd386f77436f20848cb",
+              "name": "节能灯泡",
+              "count": 15,
+              "icon": "./uploads/base/590a3cd386f77436f20848cb-base-image.webp"
+            },
+            {
+              "id": "57347cd0245977445a2d6ff1",
+              "name": "T形插座",
+              "count": 6,
+              "icon": "./uploads/base/57347cd0245977445a2d6ff1-base-image.webp"
+            },
+            {
+              "id": "61bf7b6302b3924be92fa8c3",
+              "name": "金属零件",
+              "count": 15,
+              "icon": "./uploads/base/61bf7b6302b3924be92fa8c3-base-image.webp"
+            },
+            {
+              "id": "59e36c6f86f774176c10a2a7",
+              "name": "电源线",
+              "count": 5,
+              "icon": "./uploads/base/59e36c6f86f774176c10a2a7-base-image.webp"
+            },
+            {
+              "id": "62a0a0bb621468534a797ad5",
+              "name": "&quot;Master&quot;锉刀套装",
+              "count": 1,
+              "icon": "./uploads/base/62a0a0bb621468534a797ad5-base-image.webp"
+            },
+            {
+              "id": "59e35de086f7741778269d84",
+              "name": "电钻",
+              "count": 1,
+              "icon": "./uploads/base/59e35de086f7741778269d84-base-image.webp"
+            },
+            {
+              "id": "59e3639286f7741777737013",
+              "name": "青铜狮雕",
+              "count": 1,
+              "icon": "./uploads/base/59e3639286f7741777737013-base-image.webp"
+            },
+            {
+              "id": "5e2af29386f7746d4159f077",
+              "name": "KEKTAPE管道胶带",
+              "count": 3,
+              "icon": "./uploads/base/5e2af29386f7746d4159f077-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d494a315b56502f18c98a0a",
+      "name": "空气过滤单元",
+      "icon": "./uploads/hideout/5d494a315b56502f18c98a0a.webp",
+      "base_level": 0,
+      "max_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d494a315b56502f18c98a0a_1",
+          "money": {
+            "USD": 25000
+          },
+          "stations": [],
+          "items": [
+            {
+              "id": "5d0378d486f77420421a5ff4",
+              "name": "军用电源滤波器",
+              "count": 5,
+              "icon": "./uploads/base/5d0378d486f77420421a5ff4-base-image.webp"
+            },
+            {
+              "id": "619cbf476b8a1b37a54eebf8",
+              "name": "军用波纹软管",
+              "count": 10,
+              "icon": "./uploads/base/619cbf476b8a1b37a54eebf8-base-image.webp"
+            },
+            {
+              "id": "590c595c86f7747884343ad7",
+              "name": "防毒面具滤罐",
+              "count": 5,
+              "icon": "./uploads/base/590c595c86f7747884343ad7-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d494a175b56502f18c98a04",
+      "name": "Scav宝箱",
+      "icon": "./uploads/hideout/5d494a175b56502f18c98a04.webp",
+      "base_level": 0,
+      "max_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "key": "5d494a175b56502f18c98a04_1",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5b7c710788a4506dec015957",
+              "name": "幸运Scav垃圾箱",
+              "count": 1,
+              "icon": "./uploads/base/5b7c710788a4506dec015957-base-image.webp"
+            },
+            {
+              "id": "59e3639286f7741777737013",
+              "name": "青铜狮雕",
+              "count": 3,
+              "icon": "./uploads/base/59e3639286f7741777737013-base-image.webp"
+            },
+            {
+              "id": "5d235a5986f77443f6329bc6",
+              "name": "黄金骷髅指环",
+              "count": 6,
+              "icon": "./uploads/base/5d235a5986f77443f6329bc6-base-image.webp"
+            },
+            {
+              "id": "5734758f24597738025ee253",
+              "name": "金项链",
+              "count": 8,
+              "icon": "./uploads/base/5734758f24597738025ee253-base-image.webp"
+            },
+            {
+              "id": "59faf7ca86f7740dbe19f6c2",
+              "name": "劳力土潜水金腕表",
+              "count": 4,
+              "icon": "./uploads/base/59faf7ca86f7740dbe19f6c2-base-image.webp"
+            },
+            {
+              "id": "5d1b376e86f774252519444e",
+              "name": "“凶狠跑刀崽”私酒",
+              "count": 3,
+              "icon": "./uploads/base/5d1b376e86f774252519444e-base-image.webp"
+            },
+            {
+              "id": "5bc9bc53d4351e00367fbcee",
+              "name": "金公鸡塑像",
+              "count": 1,
+              "icon": "./uploads/base/5bc9bc53d4351e00367fbcee-base-image.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "667298e75ea6b4493c08f266",
+      "name": "仪式圈",
+      "icon": "./uploads/hideout/667298e75ea6b4493c08f266.webp",
+      "base_level": 0,
+      "max_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "key": "667298e75ea6b4493c08f266_1",
+          "money": {},
+          "stations": [],
+          "items": [
+            {
+              "id": "5b4391a586f7745321235ab2",
+              "name": "WIFI摄像头",
+              "count": 1,
+              "icon": "./uploads/base/5b4391a586f7745321235ab2-base-image.webp"
+            },
+            {
+              "id": "590c2c9c86f774245b1f03f2",
+              "name": "施工用测量卷尺",
+              "count": 1,
+              "icon": "./uploads/base/590c2c9c86f774245b1f03f2-base-image.webp"
+            },
+            {
+              "id": "5e2af37686f774755a234b65",
+              "name": "SurvL幸存者打火机",
+              "count": 1,
+              "icon": "./uploads/base/5e2af37686f774755a234b65-base-image.webp"
+            },
+            {
+              "id": "62a09ee4cf4a99369e262453",
+              "name": "罐装白盐",
+              "count": 3,
+              "icon": "./uploads/base/62a09ee4cf4a99369e262453-base-image.webp"
+            },
+            {
+              "id": "5d1b392c86f77425243e98fe",
+              "name": "电灯泡",
+              "count": 5,
+              "icon": "./uploads/base/5d1b392c86f77425243e98fe-base-image.webp"
+            },
+            {
+              "id": "59e3596386f774176c10a2a2",
+              "name": "Paid杀蟑剂",
+              "count": 1,
+              "icon": "./uploads/base/59e3596386f774176c10a2a2-base-image.webp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
